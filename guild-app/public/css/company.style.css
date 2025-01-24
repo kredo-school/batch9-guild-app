@@ -1,22 +1,35 @@
 
 .content{
  position: relative;
+ overflow: hidden;
+}
+h1{
+    position: relative;
+    left: 140px;
+    top: 100px;
 }
 .in-1{
     position: absolute;
     width: 500px;
-    top: 250px;
-    left: -200px;
-    overflow: hidden;
+    top: 200px;
+    left: -100px;
 }
 .in-2{
     position: absolute;
-    width: 500px;
+    width: 700px;
     top: 350px;
+    left: -150px;
+
+}
+img{
+    position: relative;
+    overflow: hidden;
 }
 .in-3{
     position: absolute;
-    width: 500px;
-    top: 450px;
-    left: 200px;
+    width: 900px;
+    top: 500px;
+    left: -200px;
+    /* left: 250px; */
 }
+
