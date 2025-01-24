@@ -1,0 +1,62 @@
+.todo-list{
+    height: ;
+}
+
+.ongoing{
+    border: 1px solid grey;
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.12);
+}
+
+.profile-sm{
+    border: 1px solid grey;
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.12);
+}
+
+.todo{
+    border: 1px solid grey;
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.12);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo ul{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+}
+
+.suggested-job{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    border: 2px solid grey;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.12);
+}
+
+.job{
+    flex: 1 1 calc(50% - 10px);
+    border: 1px solid grey;
+    border-radius: 16px;
+    background-color: #4A583D;
+    color: #F5F5F5;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.skill-tag{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 2px 5px;
+    background-color: #D9D9D9;
+    color: black;
+    margin-right: 5px;
+}
